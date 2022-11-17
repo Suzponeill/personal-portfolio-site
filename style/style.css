@@ -1,0 +1,11 @@
+* {font-family: Helvetica;
+    background-color:rgb(198, 181, 167)}
+
+h1 {
+    border-style:ridge;
+    border-left-width: thick;
+    border-color: rgb(87, 62, 62);}
+
+nav ul {
+    list-style: none;
+}
