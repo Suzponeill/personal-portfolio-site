@@ -7,7 +7,7 @@ div {display: grid;
     width: 80vw;
     height: 95vh;
     grid-template-columns: 20% 80%;
-    grid-template-rows: 30% 55% 15%;
+    grid-template-rows: 30% 500px 15%;
     }
 
 header {border-left-style: solid;
@@ -32,6 +32,7 @@ nav li {font-size: 1.5em;
 
 content {background-color: rgb(99, 51, 62);
     grid-area: 2 / 2 / -2 / -1;
+    padding: 1em;
     }
 
 footer {grid-area: 3/ 2 / -1 / -1;
