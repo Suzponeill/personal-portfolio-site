@@ -7,7 +7,7 @@ div {display: grid;
     width: 80vw;
     height: 95vh;
     grid-template-columns: 20% 80%;
-    grid-template-rows: 30% 500px 15%;
+    grid-template-rows: 30% 500px;
     }
 
 header {border-left-style: solid;
@@ -35,14 +35,13 @@ content {background-color: rgb(99, 51, 62);
     padding: 1em;
     }
 
-footer {grid-area: 3/ 2 / -1 / -1;
+footer {width: 80vw;
+    display:block;
+    text-align: center;
     background-color: rgb(62, 80, 99);
     border-right-style: solid;
     border-right-width: 1em;
     border-color: rgb(214, 160, 43);
-    display: flex;
-    align-items: center;
-    justify-content: center;
     color:rgb(214, 160, 43)}
 
 
