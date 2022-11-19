@@ -1,13 +1,13 @@
 body {font-family: Helvetica;
     background-color:rgb(47, 47, 48)}
 
-div {display: grid;
+.grid {display: grid;
     margin: auto;
     padding-top: .8em;
     width: 80vw;
-    height: 95vh;
+    height: auto;
     grid-template-columns: 20% 80%;
-    grid-template-rows: 30% 500px 15%;
+    grid-template-rows: 150px 1fr 50px;
     }
 
 header {border-left-style: solid;
@@ -41,7 +41,6 @@ footer {grid-area: 3/ 2 / -1 / -1;
     border-right-width: 1em;
     border-color: rgb(214, 160, 43);
     display: flex;
-    align-items: center;
     justify-content: center;
     color:rgb(214, 160, 43)}
 

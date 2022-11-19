@@ -3,7 +3,7 @@
     justify-content: space-around
 }
 
-content ul {list-style: none;}
+content ul {list-style: circle;}
 
 .item img {
     border: 1px solid whitesmoke;
@@ -17,13 +17,32 @@ content ul {list-style: none;}
     box-shadow: 0 0 2px 2px rgb(214, 160, 43);
 }
 
-.main {border: 1.5px solid rgb(47, 47, 48);
+.recipe {display: grid;
+    grid-template-columns: 250px auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+        "main_img ingredients"
+        "directions directions";
+    }
+
+.main_img {border: 1.5px solid rgb(47, 47, 48);
     border-radius: 4px;
     padding: 5px;
     width: 200px;
     background-color: whitesmoke;
-    display: grid;
+    grid-area: main_img;
+
     }
 
-.ingredients {display: flex;
-    align-items: flex-start;}
+    
+.ingredients {
+    color: rgb(214, 160, 43);
+    grid-area: ingredients;}
+
+.directions {color:rgb(214, 160, 43);
+    grid-area: directions;
+    }
+
+ol > li {margin-bottom: 1em;}
+
+h3 {text-decoration: underline;} 
