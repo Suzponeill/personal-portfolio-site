@@ -49,3 +49,5 @@ footer {grid-area: 3/ 2 / -1 / -1;
 nav ul {
     list-style: none;
 }
+
+p {color: rgb(214, 160, 43)}

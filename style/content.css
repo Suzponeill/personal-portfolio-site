@@ -46,3 +46,10 @@ content ul {list-style: circle;}
 ol > li {margin-bottom: 1em;}
 
 h3 {text-decoration: underline;} 
+h2 {color: rgb(214, 160, 43);
+text-align: center;}
+
+#about {width:60%;
+margin:auto;
+display: block;
+}
