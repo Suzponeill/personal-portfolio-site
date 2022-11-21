@@ -30,7 +30,7 @@ nav li {font-size: 1.5em;
     line-height: 2em;
 }
 
-content {background-color: rgb(99, 51, 62);
+.main {background-color: rgb(99, 51, 62);
     grid-area: 2 / 2 / -2 / -1;
     padding: 1em;
     }
